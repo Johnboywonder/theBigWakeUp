@@ -1,0 +1,111 @@
+ body {
+    font-family: futura-pt, sans-serif;
+    font-style: normal;
+    font-weight: 700; 
+    text-transform: uppercase;
+} 
+
+/* navbar styles */
+
+.navbar-light .navbar-brand {
+    color: #47d7ac;
+    line-height: 0.8;
+
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #ff5869;
+}
+
+/* main-content styles */
+
+h1, h3  {
+    color: #47d7ac;
+}
+
+h2 
+{
+    color: #ff5869;
+}
+
+.display-1,.display-3,.display-4,.display-5 {
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.brand {
+    max-height: 100px;
+}
+
+.brand-2 {
+    max-width: 200px;
+}
+
+/* dying matters styles */
+
+#dying-matters {
+     background-color: #2b315e;
+     font-family: 'Libre Caslon Text', serif;
+     text-transform: none;   
+     color: #c8c9cd;
+}
+
+#main-paragraph {
+    font-size: 2rem;
+    line-height: 3rem;
+}
+
+#sub-paragraph {
+    line-height: 2rem;
+    font-weight: 400;
+}
+
+#about {
+    background-color: #47d7ac;
+}
+
+#about h1 {
+    color: #ffffff;
+}
+
+#about h4 {
+    font-weight: 500;
+    letter-spacing: 1.5rem;
+    color: #ff5869;
+}
+
+#about p {
+    font-weight: 500;
+    letter-spacing: 1.2rem;
+    line-height: 2rem;
+    color: #ffffff;
+}
+
+/* information styles */
+
+#info {
+    background-color: #ff5869;
+}
+
+#food, #music, #people {
+    color: #ffffff;
+    font-weight: 700;
+    font-size: 3.5rem;
+}
+
+/* footer styles */
+
+#footer span {
+    font-family: 'milkshakeregular';
+    text-transform: lowercase;
+    color: #ff5869;
+}
+
+#footer .btn {
+    text-transform: lowercase;
+    color: #ff5869;
+}
+
+#footer p {
+    color: #ff5869;
+}
