@@ -7,6 +7,15 @@
 
 /* navbar styles */
 
+#social {
+    color: #ff5869;
+    font-size: inherit;
+}
+
+#social:hover {
+    color: #47d7ac;
+}
+
 .navbar-light .navbar-brand {
     color: #47d7ac;
     line-height: 0.8;
@@ -16,6 +25,7 @@
 .navbar-light .navbar-nav .nav-link {
     color: #ff5869;
 }
+
 
 /* main-content styles */
 
@@ -61,7 +71,7 @@ h2
 }
 
 #about {
-    background-color: #47d7ac;
+    background-color: #2b315e;
 }
 
 #about h1 {
@@ -76,7 +86,7 @@ h2
 
 #about p {
     font-weight: 500;
-    letter-spacing: 1.2rem;
+    letter-spacing: 1rem;
     line-height: 2rem;
     color: #ffffff;
 }
@@ -91,6 +101,12 @@ h2
     color: #ffffff;
     font-weight: 700;
     font-size: 3.5rem;
+}
+
+i {
+    color: #ffffff;
+    font-size: 3.5rem;
+    opacity: 0.9;
 }
 
 /* footer styles */
